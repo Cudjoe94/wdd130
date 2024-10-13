@@ -226,15 +226,8 @@ button:hover {
     background-color: darkgreen;
 }
 
-/* End of contact us page */
-
-
-
-/* styling the trips page */
-
 .trips-hero {
     position: relative;
-    /* border: 1px solid #ccc; */
     margin: 1rem auto;
 }
 
@@ -262,7 +255,6 @@ button:hover {
     justify-content: space-evenly;
     text-align: center;
     border-radius: 5px;
-    /* flex-wrap: wrap; */
 }
 
 .trips figure a {
@@ -277,16 +269,6 @@ button:hover {
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
-/* .trips img {
-display: flex;
-margin-top: 50px;
-max-width: 300px;
-border-radius: 5px;
-} */
-
-
-
 
 table {
     border-collapse: collapse;
@@ -337,12 +319,6 @@ table {
     font-weight: bold;
   }
   
-  /* End of the trips page  */
-
-
-
-  /* styling the home page  */
-
   .action .booking {
     display: flex;
     justify-content: space-evenly; 
@@ -353,7 +329,6 @@ table {
 
   .action .booking img {
     margin-top: 50px;
-    /* margin-bottom: 50px; */
     max-width: 300px;
     border-radius: 5px;
   }
@@ -364,7 +339,6 @@ table {
 
   .action .booking .price {
     text-align: center;
-    /* background-color: antiquewhite; */
   }
 
   .explore {
@@ -376,9 +350,7 @@ table {
     margin-top: 50px;
     margin-left: 40%;
     max-width: 200px;
-    /* margin-right: 30px; */
     justify-self: auto;
-    /* background-color: #eee; */
   }
 
   .booking figcaption {
