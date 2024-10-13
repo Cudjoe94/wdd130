@@ -114,7 +114,6 @@ section {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    /* border: 2px solid #ccc; */
     margin: 1rem auto;
 }
 
@@ -150,11 +149,6 @@ section .history p {
     margin: 0;
 }
 
-/* End of About us page  */
-
-
-
-/* styling the contact page  */
   
 .happy-employees {
     display: flex;
@@ -180,10 +174,8 @@ section .history p {
 }
 
 .company-information iframe {
-    /* align-self: center; */
     width: 70%;
     margin: 0 auto;
-    /* margin-left: 5%; */
 }
 
 label{
@@ -278,7 +270,6 @@ table {
     letter-spacing: 1px;
     width: 90%;
     margin: 20px auto;
-    /* align-self: center; */
   }
   
   .trips-table {
