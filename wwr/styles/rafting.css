@@ -73,27 +73,10 @@ header nav {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    margin: 1rem auto;
-}
-
-section figure {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap; 
-    gap: 1px;
-    padding: 0;
-}
-
-section figure img {
-    flex: 1 1 200px;
+    margin: 2rem 0;
 }
 
 section h2 {
-    width: 100%;
     text-align: center;
 }
 
