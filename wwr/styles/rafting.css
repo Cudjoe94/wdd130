@@ -41,7 +41,7 @@ h1, h2 {
     left: 5%;
 }
 
-.header {
+header {
     display: grid;
     grid-template-columns: 1fr 5fr;
     align-items: center;
@@ -93,7 +93,6 @@ footer nav {
 
 footer a {
     text-decoration: none;
-    padding-left: 10px;
 }
 
 .adventure {
