@@ -56,18 +56,18 @@ nav a:hover {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    text-align: center; /* Center the text */
+    text-align: center; /* Center text */
 }
 
 .company-information p {
-    margin: 10px 0; /* Add some space between paragraphs */
+    margin: 10px 0; /* Space between paragraphs */
 }
 
 .company-information iframe {
-    display: block; /* Make the iframe a block element */
-    margin: 20px auto; /* Center it horizontally */
-    max-width: 100%; /* Make sure it scales down on smaller screens */
-    height: 300px; /* Set a fixed height for the iframe */
+    display: block; /* Block element for centering */
+    margin: 20px auto; /* Center horizontally */
+    max-width: 100%; /* Responsive width */
+    height: 300px; /* Fixed height */
 }
 
 .happy-employees {
@@ -77,8 +77,8 @@ nav a:hover {
 }
 
 .happy-employees figure {
-    margin: 0 15px; /* Add space between images */
-    text-align: center; /* Center captions under images */
+    margin: 0 15px; /* Space between images */
+    text-align: center; /* Center captions */
 }
 
 footer {
