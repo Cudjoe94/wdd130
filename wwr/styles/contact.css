@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400&family=Poppins:ital,wght@1,200&family=Ubuntu&display=swap');
-
 body {
     background-color: white;
     font-family: 'Noto Sans', 'Ubuntu', sans-serif;
@@ -23,16 +21,19 @@ h2 {
     margin: 0 auto;
 }
 
+/* Header Styles */
 header {
     background-color: #8ecae6;
     display: grid;
     grid-template-columns: 150px auto;
+    align-items: center;
 }
 
 header img {
     width: 50%;
 }
 
+/* Navigation Styles */
 nav {
     display: flex;
     justify-content: space-around;
@@ -50,26 +51,28 @@ nav a:hover {
     color: #219ebc;
 }
 
+/* Company Information Styles */
 .company-information {
     margin: 20px auto;
     max-width: 800px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    text-align: center; /* Center text */
+    text-align: center;
 }
 
 .company-information p {
-    margin: 10px 0; /* Space between paragraphs */
+    margin: 10px 0;
 }
 
 .company-information iframe {
-    display: block; /* Block element for centering */
-    margin: 20px auto; /* Center horizontally */
-    max-width: 100%; /* Responsive width */
-    height: 300px; /* Fixed height */
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: 300px;
 }
 
+/* Happy Employees Section */
 .happy-employees {
     display: flex;
     justify-content: center;
@@ -77,10 +80,11 @@ nav a:hover {
 }
 
 .happy-employees figure {
-    margin: 0 15px; /* Space between images */
-    text-align: center; /* Center captions */
+    margin: 0 15px;
+    text-align: center;
 }
 
+/* Footer Styles */
 footer {
     background-color: #ff901a;
     padding: 25px 50px;
@@ -95,13 +99,15 @@ footer a {
 }
 
 footer a:hover {
-    background-color: white;
+    background-color: #ffffff;
     color: #212682;
 }
 
+/* Media Queries */
 @media screen and (max-width: 900px) {
     nav, footer {
         flex-direction: column;
+        align-items: center;
     }
     nav a {
         display: block;

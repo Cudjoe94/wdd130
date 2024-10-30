@@ -6,7 +6,14 @@
     <meta name="description" content="Reach out to Willard Water Rafting Company for all your inquiries, reservations, and feedback.">
     <meta name="author" content="Francis Uba Ezieme">
     <title>Contact Willard Water Rafting Company</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400&family=Poppins:ital,wght@1,200&family=Ubuntu&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/rafting.css">
+    
     <script>
         function showMessage() {
             alert("Your message has been sent successfully!");
@@ -30,6 +37,7 @@
             <p><strong><a href="tel:+2349136418814">Phone Number: +2349136418814</a></strong></p>
             <p><strong><a href="mailto:francisezieme@yahoo.com">Email: francisezieme@yahoo.com</a></strong></p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127165.43418267378!2d7.28454299633084!3d5.116623886420722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104299308f30fbf3%3A0x98345ebf0c8cbca1!2sAba%2C%20Abia!5e0!3m2!1sen!2sng!4v1730274464479!5m2!1sen!2sng" 
+            title="Company Location Map"
             width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         
@@ -59,14 +67,16 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <label for="purpose">Purpose of Message:</label>
                 <div class="form-item">
+                    <label>Purpose of Message:</label>
                     <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
                     <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
                     <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
                 </div>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
                 <label>
                     <input type="checkbox" name="subscribe" value="yes" id="subscribe"> Please subscribe me to the monthly newsletter
                 </label>
@@ -77,9 +87,15 @@
     <footer>
         <p>&copy; 2024 Willard Water Rafting Company | Francis Uba Ezieme</p>
         <nav class="socialinks">
-            <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook" width="40" height="40"></a>
-            <a href="https://instagram.com"><img src="images/instagram-icon.png" alt="Instagram" width="40" height="40"></a>
-            <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter" width="40" height="40"></a>
+            <a href="https://facebook.com" aria-label="Facebook">
+                <img src="images/facebook-icon.png" alt="Facebook" width="40" height="40">
+            </a>
+            <a href="https://instagram.com" aria-label="Instagram">
+                <img src="images/instagram-icon.png" alt="Instagram" width="40" height="40">
+            </a>
+            <a href="https://twitter.com" aria-label="Twitter">
+                <img src="images/twitter-icon.png" alt="Twitter" width="40" height="40">
+            </a>
         </nav>
         <a href="https://app.moqups.com/cqiH53MPjbEsEOKAhJi70dR84Q6h5BX3/edit/page/ad64222d5">Contact Us - Wireframe</a>
     </footer>
